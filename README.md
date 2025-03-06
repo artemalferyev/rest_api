@@ -23,7 +23,6 @@ Step 1: Clone the repository
 
 Clone this repository to your local machine:
 
-```bash
 git clone https://github.com/your-username/rest_api.git
 
 Step 2: Install dependencies
