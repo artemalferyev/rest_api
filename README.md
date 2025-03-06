@@ -10,16 +10,16 @@ This is a simple RESTful Task Management API built with **FastAPI**. The API all
 - **PUT** `/tasks/{task_id}` - Update a task by ID
 - **DELETE** `/tasks/{task_id}` - Delete a task by ID
 
-## Requirements
+Requirements
 
 - Python 3.7 or later
 - FastAPI
 - Uvicorn (ASGI server)
 - Pydantic for data validation
 
-## Installation
+Installation
 
-### Step 1: Clone the repository
+Step 1: Clone the repository
 
 Clone this repository to your local machine:
 
