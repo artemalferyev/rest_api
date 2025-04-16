@@ -1,19 +1,24 @@
 FastAPI Task API
 
 This is a simple RESTful Task Management API built with FastAPI. The API allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks. It uses Pydantic for data validation and FastAPI for the web framework.
-Features
+
+Features:
 
 * GET /tasks - Get a list of all tasks
 * GET /tasks/{task_id} - Get a specific task by its ID
 * POST /tasks - Create a new task
 * PUT /tasks/{task_id} - Update a task by ID
 * DELETE /tasks/{task_id} - Delete a task by ID
-Requirements
+
+Requirements:
+
 * Python 3.7 or later
 * FastAPI
 * Uvicorn (ASGI server)
 * Pydantic for data validation
-Installation
+
+Installation:
+
 Step 1: Clone the repository
 Clone this repository to your local machine:
 git clone https://github.com/your-username/rest_api.git
@@ -29,7 +34,9 @@ FastAPI provides an interactive API documentation via Swagger UI. You can access
 http://127.0.0.1:8000/docs
 You can also explore the OpenAPI schema at:
 http://127.0.0.1:8000/openapi.json
-Endpoints
+
+Endpoints:
+
 1. GET /tasks
 Get a list of all tasks.
 Response:
@@ -59,7 +66,9 @@ Request:
 DELETE http://127.0.0.1:8000/tasks/1
 Response:
 { "message": "Task deleted" }
-Example Requests
+
+Example Requests:
+
 You can test these endpoints using tools like Postman, curl, or directly via FastAPI’s interactive docs.
 Create a Task
 curl -X POST "http://127.0.0.1:8000/tasks" -H "Content-Type: application/json" -d '{"title": "Learn FastAPI", "status": "in progress"}'
